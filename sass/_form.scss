@@ -43,6 +43,19 @@ $hg-form: 45px;
 	&.txt-box-shadow {
 		box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
 	}
+	&.txt-full {
+		width: 100%;
+		height: calc(100% - 30px);
+		padding: 15px 0;
+		background-color: #fff;
+		color: $txt-84-color;
+		text-align: center;
+		border-radius: 0;
+		&:focus {
+			background-color: #f5f5f5;
+			box-shadow: 0 0 2px $red !important;
+		}
+	}
 	&.txt-sekunder-color {
 		width: calc(100% - 15px);
 		padding: 10px 7.5px;
